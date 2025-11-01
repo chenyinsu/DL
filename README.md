@@ -28,53 +28,39 @@ Note
 3.  硬件与算法的协同设计：如硬件在环仿真、可重构ISP等前沿思想。
 4.  低功耗与AI驱动的ISP：面向移动端和边缘设备的最新进展。
 
-📖 论文研读笔记
-经典算法基础 (2005-2010)
-这部分论文奠定了计算摄影许多方向的基石，其思想至今仍被广泛应用。
+## 📖 论文研读笔记
 
-论文标题  笔记链接  难点与思考
+### 经典算法基础 (2005-2010)
 
-2005年 - Video Enhancement Using Per-Pixel Virtual Exposures notes/2005_virtual_enhancement.md - -
+| 论文标题 | 笔记链接 | 难点与思考 |
+|---------|---------|-----------|
+| 2005 - Video Enhancement Using Per-Pixel Virtual Exposures | [笔记](notes/2005_virtual_enhancement.md) | - |
+| 2006 - Removing Camera Shake from a Single Photograph | [笔记](notes/2006_removing_camera_shake.md) | - |
+| 2007 - Image Deblurring with Blurred/Noisy Image Pairs | [笔记](notes/2007_image_deblurring.md) | - |
+| 2008 - High-quality Motion Deblurring from a Single Image | [笔记](notes/2008_motion_deblur.md) | - |
+| 2008 - Single Image Dehazing | [笔记](notes/2008_dehaze.md) | - |
+| 2008 - Edge-Preserving Decompositions for Multi-Scale Tone and Detail Manipulation | [笔记](notes/2008_edge_preserving.md) | - |
+| 2010 - Image Deblurring using Inertial Measurement Sensors | [笔记](notes/2010_imu_deblur.md) | - |
+| 2015 - Algorithms for the Enhancement of Dynamic Range and Colour Constancy of Digital Images & Video | [笔记](notes/2015_thesis_enhancement.md) | - |
 
-2006年 - Removing Camera Shake from a Single Photograph notes/2006_removing camera shake.md - -
+### 现代ISP技术 (2020-2023)
 
-2007年 - Image Deblurring with Blurred/Noisy Image Pairs notes/2007_image deblurring.md - -
+| 论文标题 | 笔记链接 | 核心思想摘要 |
+|---------|---------|-------------|
+| 2020 - Hardware-in-the-loop End-to-end Optimization of Camera Image Processing Pipelines | [笔记](notes/2020_hil.md) | - |
+| 2021 - ReconfigISP: Reconfigurable Camera Image Processing Pipeline | [笔记](notes/2021_reconfig_isp.md) | - |
+| 2022 - Abandoning the Bayer-Filter to See in the Dark | [笔记](notes/2022_abandon_bayer.md) | - |
+| 2022 - Neural Photo-Finishing | [笔记](notes/2022_neural_finishing.md) | - |
+| 2023 - DynamicISP: Dynamically Controlled Image Signal Processor | [笔记](notes/2023_dynamic_isp.md) | - |
+| 2023 - Enabling ISPless Low-Power Computer Vision | [笔记](notes/2023_ispless.md) | - |
 
-2008年 - High-quality Motion Deblurring from a Single Image notes/2008_motion_deblur.md - -
+### 相关研究扩展
 
-2008年 - Single Image Dehazing  notes/2008_dehaze.md - -
+| 论文标题 | 笔记链接 | 核心思想摘要 |
+|---------|---------|-------------|
+| 2022 - Image-Adaptive YOLO for Object Detection | [笔记](notes/2022_image_adaptive_yolo.md) | - |
+| 2022 - You Only Need 90K Parameters to Adapt | [笔记](notes/2022_90k_parameters.md) | - |
 
-2008年 - Edge-Preserving Decompositions for Multi-Scale Tone and Detail Manipulation notes/2008_edge_preserving.md - -
-
-2010年 - Image Deblurring using Inertial Measurement Sensors notes/2010_imu_deblur.md - -
-
-2015年 - Algorithms for the Enhancement of Dynamic Range 
-and Colour Constancy of Digital Images & Video notes/2015_thesis_enhancement.md - -
-
-现代ISP技术 (2020-2023)
-
-这部分论文反映了当前工业界和学术界的研究热点。
-
-论文标题  笔记链接 核心思想摘要 
-
-2020年 - Hardware-in-the-loop End-to-end Optimization of
-Camera Image Processing Pipelines  notes/2020_hil.md - -
-
-2021年 - ReconfigISP: Reconfigurable Camera Image Processing Pipeline  notes/2021_reconfig_isp.md - -
-
-2022年 - Abandoning the Bayer-Filter to See in the Dark  notes/2022_abandon_bayer.md - -
-
-2022年 - Neural Photo-Finishing  notes/2022_neural_finishing.md - -
-
-2023年 - DynamicISP: Dynamically Controlled Image Signal Processor  notes/2023_dynamic_isp.md - -
-
-2023年 - Enabling ISPless Low-Power Computer Vision  notes/2023_ispless.md - -
-相关研究扩展
-论文标题  笔记链接 核心思想摘要 
-
-2022年 - Image-Adaptive YOLO for Object Detection  notes/2022_image_adaptive_yolo.md - -
-
-2022年 - You Only Need 90K Parameters to Adapt notes/2022_90k_parameters.md - -
 
 
 🧪 算法复现与实验
