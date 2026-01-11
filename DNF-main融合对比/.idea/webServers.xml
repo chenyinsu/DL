@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b3e5810d-2d08-4c02-917b-d16d1114047d" name="dnf">
+        <fileTransfer accessType="SFTP" host="connect.yza1.seetacloud.com" port="53632" sshConfigId="5b064612-e570-4a70-b162-02e14ebcb5ab" sshConfig="root@connect.yza1.seetacloud.com:53632 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="acf66e4c-9b28-4081-a150-7f1923e51fb4" name="ssh -p 47156 root@connect.yza1.seetacloud.com">
+        <fileTransfer accessType="SFTP" host="connect.yza1.seetacloud.com" port="47156" sshConfigId="35b97017-a403-4cf1-90da-053523c54585" sshConfig="root@connect.yza1.seetacloud.com:47156 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e6e22819-4bb9-48ba-9b44-3b747513502c" name="Amengzhen">
+        <fileTransfer accessType="SFTP" host="10.101.218.58" port="22" sshConfigId="51ee7088-d9dc-49d2-ab32-71e6010ce2d4" sshConfig="mengzhen@10.101.218.58:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2144de5a-9828-48b9-9d2c-d231d8ff3a50" name="Autodl">
+        <fileTransfer accessType="SFTP" host="connect.nmb1.seetacloud.com" port="19352" sshConfigId="c108dfc5-df5c-4529-bbe0-ed018f39a517" sshConfig="root@connect.nmb1.seetacloud.com:19352 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="eac4b665-6f04-49eb-a9f5-7fa4f30c51d4" name="ssh -p 33985 root@connect.nmb2.seetacloud.com">
+        <fileTransfer accessType="SFTP" host="connect.nmb2.seetacloud.com" port="33985" sshConfigId="812fe368-1eef-4da3-9077-7c1f7ec5e107" sshConfig="root@connect.nmb2.seetacloud.com:33985 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="55038219-18d8-43ae-bbc5-ec089cf3927a" name="Final">
+        <fileTransfer accessType="SFTP" host="connect.nmb1.seetacloud.com" port="40768" sshConfigId="b815ac63-1f05-42e1-8e8e-10f8c0b2d7f9" sshConfig="root@connect.nmb1.seetacloud.com:40768 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
